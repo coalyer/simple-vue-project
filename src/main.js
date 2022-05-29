@@ -7,6 +7,8 @@ import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 // 引入normalize.css
 import 'normalize.css'
+// 引入mock
+import './mock.js'
 
 Vue.use(ElementUI)
 
