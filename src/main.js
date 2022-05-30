@@ -9,6 +9,8 @@ import 'element-ui/lib/theme-chalk/index.css'
 import 'normalize.css'
 // 引入mock
 import './mock.js'
+// 引入store
+import store from './store/index.js'
 
 // 引入表单验证
 import VeeValidate, { Validator } from 'vee-validate'
@@ -23,5 +25,6 @@ Vue.config.productionTip = false
 
 new Vue({
   router,
+  store,
   render: h => h(App),
 }).$mount('#app')
